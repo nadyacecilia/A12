@@ -1,6 +1,6 @@
-*{
+* {
     box-sizing: border-box
- }
+}
 
 .container {
     max-width: 1170px;
@@ -160,7 +160,7 @@
     max-width: 100%;
     text-align: left;
     font-size: 14px;
-    color: blue;
+    color: black;
     border-radius: 2px;
     border: 0px;
     padding: 15px 0px 15px 20px;
@@ -179,7 +179,7 @@
     max-width: 100%;
     padding: 15px;
     font-size: 15px;
-    background: #344966;
+    background: rgb(243, 188, 87);
     cursor: pointer;
     border-radius: 0px 2px 2px 0px;
     outline: 0;
@@ -187,7 +187,7 @@
 }
 
 .subscribe-btn:hover {
-    background: #213144;
+    background: rgb(247, 171, 31);
 }
 
 header {
@@ -195,35 +195,41 @@ header {
     height: 100vh;
     background-size: cover;
     background-position: center;
-    }
-ul{
+}
+
+ul {
     float: right;
     margin-top: 35px;
 }
-ul li{
+
+ul li {
     display: inline-block;
 }
-ul li a{
+
+ul li a {
     text-decoration: aqua;
     color: #fff;
     padding: 5px 20px;
     border: 2px solid #fff;
     border-radius: 20px;
-    transition: 0,7s;
+    transition: 0, 7s;
     margin: 10px;
     font-size: 13px;
     font-weight: bold;
     font-family: Arial, Helvetica, sans-serif;
 }
-ul li a:hover{
+
+ul li a:hover {
     background-color: aqua;
     color: black;
 }
-ul li.active a{
+
+ul li.active a {
     background-color: blue;
     color: blue;
 }
-.logo img{
+
+.logo img {
     float: left;
     width: 180px;
     height: auto;
@@ -231,15 +237,18 @@ ul li.active a{
     margin-left: 3px;
     cursor: pointer;
 }
-.navbar{
+
+.navbar {
     max-width: 4000px;
     margin: auto;
 }
-.contents{
+
+.contents {
     position: absolute;
     top: 30%;
     left: 38%;
 }
+
 .contents h1 {
     color: blue;
     font-size: 78px;
