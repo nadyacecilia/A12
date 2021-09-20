@@ -26,10 +26,18 @@
 }
 
 @media all and (max-width: 670px) {
+    .section-title{
+        font-size:28px
+    }
+    
     .destination {
         width: 100%;
     }
 
+    .destination p {
+        font-size:30px;
+    }
+    
     .img-resize {
         width: 300px;
         height: 450px;
