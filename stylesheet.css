@@ -197,50 +197,76 @@ body {
 
 header {
     background-color: cadetblue;
-    height: 16vh;
+    height: 65px;
+    width: 100%;
     background-size: cover;
     background-position: center;
-    }
-ul{
-    float: right;
-    margin-top: 30px;
+    position: fixed;
+    top: 0;
+    z-index: 10;
 }
-ul li{
+
+.menu-icon {
+    color: white;
+    float: right;
+    font-size: 25px;
+    margin-top: 20px;
+    display: none;
+}
+
+.header-left {}
+
+.header-right {
+    display: block;
+}
+
+ul {
+    float: right;
+    margin-top: 20px;
+}
+
+ul li {
     display: inline-table;
 }
-ul li a{
+
+ul li a {
     text-decoration: aqua;
     color: #fff;
     padding: 5px 20px;
     border: 2px solid #fff;
     border-radius: 20px;
-    transition: 0,9s;
+    transition: 0, 9s;
     margin: 9px;
     font-size: 13px;
     font-weight: bold;
     font-family: Arial, Helvetica, sans-serif;
 }
-ul li a:hover{
+
+ul li a:hover {
     background-color: aqua;
     color: black;
 }
-ul li.active a{
+
+ul li.active a {
     background-color: blue;
     color: blue;
 }
-.logo img{
+
+.logo img {
     float: left;
-    width: 240px;
-    height: auto;
-    margin-top: 0px;
+    width: auto;
+    height: 50px;
+    margin-top: 5px;
     margin-left: 3px;
     cursor: pointer;
 }
-.navbar{
+
+.navbar {
     max-width: 4000px;
     margin: auto;
 }
-.contents{
+
+.contents {
     position: absolute;
     top: 30%;
     left: 38%;
