@@ -197,7 +197,7 @@ body {
 
 header {
     background-color: cadetblue;
-    height: auto;
+    height: 70px;
     width: 100%;
     background-size: cover;
     background-position: center;
@@ -248,9 +248,9 @@ ul li.active a{
 .logo img{
     float: left;
     width: 240px;
-    height: auto;
+    height: 70px;
     margin-top: 0px;
-    margin-left: 3px;
+    margin-left: 0px;
     cursor: pointer;
 }
 
