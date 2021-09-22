@@ -220,14 +220,15 @@ header {
     display: block;
 }
 
-.logo ul{
+ul{
     float: right;
     margin-top: 30px;
 }
-.logo ul li{
+ul li{
     display: inline-table;
 }
-.logo ul li a{
+
+ul li a{
     text-decoration: aqua;
     color: #fff;
     padding: 5px 20px;
@@ -239,14 +240,17 @@ header {
     font-weight: bold;
     font-family: Arial, Helvetica, sans-serif;
 }
-.logo ul li a:hover{
+
+ul li a:hover{
     background-color: aqua;
     color: black;
 }
+
 ul li.active a{
     background-color: blue;
     color: blue;
 }
+
 .logo img{
     float: left;
     width: 240px;
@@ -255,10 +259,12 @@ ul li.active a{
     margin-left: 3px;
     cursor: pointer;
 }
+
 .navbar{
     max-width: 4000px;
     margin: auto;
 }
+
 .contents{
     position: absolute;
     top: 30%;
