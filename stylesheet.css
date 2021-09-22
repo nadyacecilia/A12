@@ -248,7 +248,7 @@ ul li.active a{
 .logo img{
     float: left;
     width: 240px;
-    height: auto;
+    height: 65px;
     margin-top: 0px;
     margin-left: 3px;
     cursor: pointer;
