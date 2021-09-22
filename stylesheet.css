@@ -214,12 +214,6 @@ header {
     display: none;
 }
 
-.header-left {}
-
-.header-right {
-    display: block;
-}
-
 ul{
     float: right;
     margin-top: 30px;
